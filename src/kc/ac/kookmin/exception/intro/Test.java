@@ -10,7 +10,7 @@ class AAA
       try {
          FileWriter reader=new FileWriter("c:\\a.txt");
       } catch (IOException e) {
-         // TODO Auto-generated catch block
+       
          e.printStackTrace();
       }
    }
