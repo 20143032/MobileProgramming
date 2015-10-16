@@ -1,5 +1,4 @@
 package kc.ac.kookmin.exception.intro;
-
 import java.io.*;
 
 class AAA
@@ -9,7 +8,7 @@ class AAA
       try {
          FileWriter reader=new FileWriter("c:\\a.txt");
       } catch (IOException e) {
- 
+         // TODO Auto-generated catch block
          e.printStackTrace();
       }
    }
@@ -18,10 +17,10 @@ class AAA
    
    }
 }
-
 public class Test {
 
-	 public static void main(String[] args) 
+
+	   public static void main(String[] args) 
 	   {
 	      
 	      AAA a=new AAA();
@@ -32,4 +31,6 @@ public class Test {
 	      
 	      a.close();
 	   }
+	
+	
 }
